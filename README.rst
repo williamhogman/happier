@@ -4,9 +4,10 @@ Happier
 
 A Python development tool that makes you Happier.
 
-Happier formats, lints and sorts your imports.
+Happier formats, lints and sorts your imports. Happier is opinionated,
+simple and just works, making you hopefully happier.
 
-Happier is opinionated, simple and just works, making you hopefully happier.
+To run it just type ``happier`` and your code will be formatted.
 
 *******************
 What Happier does
@@ -31,7 +32,6 @@ just needed those 50 lines of code to tie it all together.
 With well-wishes and hopes for brigther days ahead in these troubled
 times.
 
-::
-  ~William Rudenmalm
+~William Rudenmalm
 
-  Stockholm, 22 June, 2020
+Stockholm, 22 June, 2020
