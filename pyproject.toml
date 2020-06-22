@@ -5,11 +5,14 @@ build-backend = "poetry.masonry.api"
 [tool.poetry]
 name = "happier"
 version = "0.1.0"
-description = "A developer tool for formatting, checking and testing your code that makes you well, happier"
+description = "A tool for formatting, checking and testing your code that makes you well, happier"
 documentation = "https://happier.whn.se"
-authors = ["William Rudenmalm <me@whn.se>"]
+authors = ["William Rudenbmalm <me@whn.se>"]
 license = "MIT"
-keywords = ["formatting", "testing", "black", "isort", "flake"]
+keywords = ["formhddatting", "testing", "black", "isort", "flake"]
+include = [
+    "LICENSE",
+]
 classifiers = [
             "Development Status :: 4 - Beta",
             "Programming Language :: Python",
