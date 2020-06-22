@@ -33,5 +33,5 @@ jobs:
         python_version: 3.8.0
         poetry_version: 1.0
         args: publish
-        env:
-          POETRY_PYPI_TOKEN_PYPI: ${{ secrets.PYPI_TOKEN }}
+      env:
+        POETRY_PYPI_TOKEN_PYPI: ${{ secrets.PYPI_TOKEN }}
