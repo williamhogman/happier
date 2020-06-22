@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "A developer tool for formatting, checking and testing your code that makes you well, happier"
 documentation = "https://happier.whn.se"
 authors = ["William Rudenmalm <me@whn.se>"]
+license = "MIT"
 keywords = ["formatting", "testing", "black", "isort", "flake"]
 classifiers = [
             "Development Status :: 4 - Beta",
