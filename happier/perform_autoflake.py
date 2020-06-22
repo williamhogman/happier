@@ -1,5 +1,8 @@
 import argparse
+import sys
+
 import autoflake
+
 
 def perform_autoflake(f):
     args = argparse.Namespace()

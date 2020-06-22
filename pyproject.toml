@@ -1,8 +1,30 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
 [tool.poetry]
 name = "happier"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A developer tool for formatting, checking and testing your code that makes you well, happier"
+documentation = "https://happier.whn.se"
+authors = ["William Rudenmalm <me@whn.se>"]
+keywords = ["formatting", "testing", "black", "isort", "flake"]
+classifiers = [
+            "Development Status :: 4 - Beta",
+            "Programming Language :: Python",
+            "Environment :: Console",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3 :: Only",
+            "Topic :: Software Development :: Libraries :: Python Modules",
+            "Topic :: Software Development :: Quality Assurance",
+]
+readme = "README.rst"
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -14,6 +36,6 @@ black = "^19.10b0"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+poetry = 'happier.main:main'

@@ -1,5 +1,6 @@
 import isort
 
+
 def sort_imports(f):
     isort.SortImports(
         f,
